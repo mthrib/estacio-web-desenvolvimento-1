@@ -79,6 +79,7 @@
     /* INICIO  */
     .home > .flex {
         gap: 100px;
+        justify-content: space-around;
     }
 
     .home > .flex > .home-f > h1 {
@@ -93,6 +94,7 @@
 
     .info > .flex > .box {
         gap: 100px;
+        justify-content: space-around;
     }
 
     .info > .flex > .box > .box-img > img {
@@ -101,7 +103,11 @@
 
     /* FOOTER */
 
+    footer {
+        border-top: 1px solid #000
+    }
+
     footer > .flex {
-        gap: 500px;
+        justify-content: space-evenly;
     }
 }
