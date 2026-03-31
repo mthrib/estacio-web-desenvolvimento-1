@@ -1,59 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/home-f.css">
-    <title>Trabalho Programação Web</title>
+    <script src="https://kit.fontawesome.com/10f5050d36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/mobile-first.css">
+    <title>Netric</title>
 </head>
 <body>
     <header>
-        <div class="left">
-            <!-- LOOGO -->
-             <h1>LOGO</h1>
-             <div class="button-div">
-                 <button type="button" id="button" onclick="handleClick()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                             </button>
-             </div>
+        <!--  -->
+        <div class="header-left">
+            <img src="src/logo.png" alt="LOGO">
+        </div> 
+        <!-- FIM  -->
+        <!--  -->
+        <div class="header-right">
+            <a href="#" class="log">Logar</a>
+            <a href="#">Criar Conta</a>
         </div>
-        <div class="right">
-            
-            <nav id="menu">
-                <a href="#">Home</a>
-                <a href="#">Exemplo</a>
-                <a href="#">Exemplo</a>
-                <a href="#">Exemplo</a>
-            </nav>
-        </div>
+        <!-- FIM -->
     </header>
-
+    <!-- FIM DO HEADER -->
+    <!--  -->
     <main>
-        <section>
-            <!-- CONTENT -->
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur hic impedit tempore eveniet tenetur ducimus, voluptatum blanditiis repellat vitae, beatae nam porro velit praesentium aut suscipit totam? Velit, necessitatibus.</p>
+        <section class="home">
+            <div class="flex">
+                <div class="home-f">
+                    <h1>Sempre <br> Conectado</h1>
+                    <a href="#">Saiba mais</a>
+                </div>
+                <!-- FIM -->
+                <div class="home-d">
+                    <img src="src/img1.jpg" alt="Pessoa Segurando Celular">
+                </div>
+                <!-- FIM -->
+            </div>
         </section>
+        <!-- FIM -->
+        <!--  -->
+        <section class="intro">
+            <h2>A <span>Netric</span> é uma startup que busca mudar a maneira de conectar as pessoas.</h2>
+            <p>Nosso aplicativo móvel é construído para criar e aumentar as conexões entre você, pessoas que conhece e pessoas que você quer conhecer. Com várias startups em nosso portfólio, a equipe da Netric está trabalhando para trazer a você tudo em um único aplicativo.</p>
+        </section>
+        <!-- FIM -->
+        <!--  -->
+        <section class="info">
+            <div class="flex">
+                <div class="box">
+                    <div class="box-txt">
+                        <h2>Conecte com amigos</h2>
+                        <p>
+                            Use a Netric para se conectar às pessoas que você conhece. <br><br> A Netric pode conectar você a pessoas fora de seu círculo habitual.
+                        </p>
+                    </div>
+                    <!-- FIM -->
+                    <div class="box-img">
+                        <img src="src/img2.jpg" alt="Pessoa conversando">
+                    </div>
+                    <!-- FIM -->
+                </div>
+                <!-- FIM -->
+                <div class="box" id="box-reverse">
+                    <div class="box-txt">
+                        <h2>Mantenha contato</h2>
+                        <p>O sistema de mensagem da Netric substitui a mensagem de texto, a chamada e a mensagem de voz. <br><br> Nossos fóruns irão mudar a maneira como você lida com grupos de interesses e debates virtuais.</p>
+                    </div>
+                    <!-- FIM -->
+                    <div class="box-img">
+                        <img src="src/img3.jpg" alt="Pessoa no Celular">
+                    </div>
+                    <!-- FIM -->
+                </div>
+                <!--  -->
 
-        <section>
-            <!--  CONTENT -->
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur, cumque ex accusantium labore magni inventore adipisci beatae quos numquam rem autem aut laboriosam, eius id quibusdam temporibus possimus rerum!
-              Et, placeat rem harum natus similique dolorem sint saepe obcaecati modi quae exercitationem fugit alias? Repellat, aspernatur officia eveniet at non adipisci beatae repudiandae quas. Maiores corrupti assumenda dicta dolor!
-              Magnam quae, explicabo repellat architecto voluptatem laboriosam modi fugit. Porro molestias sunt sit. Porro harum excepturi, facere sit adipisci dolore, nisi blanditiis odio cupiditate soluta voluptas sapiente. Sint, veniam accusantium.</p>
+                <div class="box">
+                    <div class="box-txt">
+                        <h2>Construa sua base social</h2>
+                        <p>A Netric apresenta ideias e espaços que podem deixar você interessado. <br><br> Você pode usar esses espaços para conhecer novas pessoas e criar conexões.</p>
+                    </div>
+                    <!-- FIM -->
+                    <div class="box-img">
+                        <img src="src/img4.jpg" alt="">
+                    </div>
+                    <!-- FIM -->
+                </div>
+            </div>
+            <!-- FIM -->
         </section>
+        <!-- fim -->
+        
     </main>
-
-    <footer>
-        <div class="layer-1">   
-            <!-- LOGO -->
-             <h1>LOGO</h1>
-        </div>
-        <div class="layer-2">
-            <p>&copy;Matheus e Gabriel</p>
-        </div>
-    </footer>
-
-    <script src="JS/toggle-menu"></script>
+    <!-- FIM -->
+    <!--  -->
+        <footer> 
+            <div class="flex">
+                <div class="footer-l">
+                    <img src="src/logo.png" alt="Logo">
+                </div>
+                <!-- FIM -->
+                <div class="footer-e">
+                    <div class="info-t">
+                        <h2>Fale Conosco</h2>
+                        <p>(xx) xxxx-xxxx</p>
+                        <p>Rua Qualquer, 123, Cidade XXXXX</p>
+                        <p>email@qualquer.site.com.br</p>
+                    </div>
+                    <div class="info-b">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <!-- FIM -->
+            </div>
+            <!-- FIM -->
+        </footer>
+        <!-- FIM -->
 </body>
 </html>

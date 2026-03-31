@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+:root {
+    --txt1: #fff;
+    --span: #9340ff;
+    --bg-gradiente-c1: #9340ff;
+    --bg-gradiente-c2: #ff3c5f;
+
+    --bg: #101728;
+
+    --font: 'Codec Pro', sans-serif;
+}
+
+/* SO PRA JEITAR AS IMAGNES */
+
+body img {
+    width: 300px;
+}
+/* BODY   */
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg);
+    color: var(--txt1);
+}
+
+/* GERAL */
+.flex{
+    display: flex;
+}
+
+/* HEADER */
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .header-left > img {
+    width: 150px;
+}
+
+header > .header-right > a {
+    color: var(--txt1);
+    text-decoration: none;
+    padding: 10px;
+}
+
+header > .header-right > .log {
+    background: linear-gradient(to right, var(--bg-gradiente-c2), var(--bg-gradiente-c1));
+    border-radius: 20px;
+}
+
+/* INICIO    */
+
+.home {
+    padding: 0 4%;
+}
+
+.home > .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home > .flex > .home-f {
+    margin-bottom: 30px;
+}
+
+.home > .flex > .home-f > h1 {
+    font-size: 3em;
+}
+
+.home > .flex > .home-f > a {
+    text-align: center;
+    background: linear-gradient(to right, var(--bg-gradiente-c1), var(--bg-gradiente-c2));
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+.home > .flex > .home-d  {
+    position: relative;
+    display: inline-block;
+}
+
+.home > .flex > .home-d > img{
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/* INTRO */
+
+.intro {
+    padding: 0 4%;
+    margin: 100px 0;
+}
+.intro > h2 {
+    text-align: center;
+}
+
+.intro > h2 > span {
+    color: var(--span);
+}
+
+.intro > p {
+    text-align: center;
+}
+
+/* INFO */
+
+.info {
+    padding: 0 4%;
+}
+
+.info > .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.info > .flex > .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* centraliza horizontal */
+    justify-content: center; /* centraliza vertical */
+    text-align: center;      /* centraliza texto */
+}
+
+.info > .flex > .box > .box-txt > h2{
+    color: var(--span);
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+.info > .flex > .box > .box-txt > p {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info > .flex > .box > .box-img > img {
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+/* FOOTER */
+
+footer {
+    padding: 80px 4%;
+}
+
+footer > .flex {
+    flex-direction: column;
+}
+
+footer > .flex > .footer-l {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+footer > .flex > .footer-e > .info-b > a  {
+    
+    text-decoration: none;
+}
+
+footer > .flex > .footer-e > .info-b > a > i {
+    margin-top: 50px;
+    padding: 10px 10px;
+    color: var(--txt1);
+    font-size: 2em;
+}
