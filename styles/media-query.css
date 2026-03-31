@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+:root {
+    --txt1: #fff;
+    --span: #9340ff;
+    --bg-gradiente-c1: #9340ff;
+    --bg-gradiente-c2: #ff3c5f;
+
+    --bg: #101728;
+
+    --font: 'Codec Pro', sans-serif;
+}
+
+@media (min-width: 768px) {
+    header > .header-left > img  {
+        width: 250px;
+    }
+
+    header > .header-right > a {
+        font-size: 1.5em;
+    }
+
+    /* INICIO    */
+    .home {
+        margin-top: 50px;
+    }
+    .home > .flex {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .home > .flex > .home-f > h1 {
+        font-size: 4em;
+    }
+
+    .home > .flex > .home-f > a {
+        font-size: 2em;
+    }
+
+    /* INTRO */
+    .intro > h2 {
+        font-size: 3em;
+    }
+
+    .intro > p {
+        font-size: 1.5em;
+    }
+
+    /* INFO */
+    .info > .flex > .box{
+        flex-direction: row;
+        gap: 30px;
+        padding: 60px 0;
+    }
+
+    .info > .flex > .box > .box-txt > h2, .info > .flex > .box > .box-txt > p{
+        text-align: left;
+    }
+
+    #box-reverse {
+        flex-direction: row-reverse;
+    }
+
+    
+    /* FOOTER */
+
+    footer > .flex {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    footer > .flex > .footer-l {
+        margin: 0 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    /* INICIO  */
+    .home > .flex {
+        gap: 100px;
+    }
+
+    .home > .flex > .home-f > h1 {
+        font-size: 6em;
+    }
+
+    .home > .flex > .home-d > img{
+    width: 500px;
+    }
+
+    /* INFO */
+
+    .info > .flex > .box {
+        gap: 100px;
+    }
+
+    .info > .flex > .box > .box-img > img {
+        width: 500px;
+    }
+
+    /* FOOTER */
+
+    footer > .flex {
+        gap: 500px;
+    }
+}
