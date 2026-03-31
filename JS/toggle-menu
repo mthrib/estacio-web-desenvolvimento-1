@@ -1,0 +1,10 @@
+const button = document.getElementById('button');
+const menu = document.getElementById('menu');
+
+function handleClick() {
+    // Alterna a classe 'active' no botão (útil para animar o ícone de hambúrguer)
+    button.classList.toggle('active');
+    
+    // Alterna a classe 'active' no menu para mostrar/esconder
+    menu.classList.toggle('active');
+}
