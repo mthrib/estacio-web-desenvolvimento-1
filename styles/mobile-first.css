@@ -43,7 +43,7 @@ header {
     align-items: center;
 }
 
-header > .header-left > img {
+header > .header-left > a > img {
     width: 150px;
 }
 
