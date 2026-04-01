@@ -69,6 +69,10 @@ header > .header-right > .log {
     margin-bottom: 30px;
 }
 
+.home > .home-f > h1 {
+    line-height: 10px;
+}
+
 .home-f > h1 > span {
     color: var(--bg-gradiente-c1);
 }
