@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/cadastro/cadastro.css">
+    <script src="https://kit.fontawesome.com/10f5050d36.js" crossorigin="anonymous"></script>
+    <title>MeetCode</title>
+</head>
+<body>
+
+    <a href="../index.html"><img src="../src/logo1.png" alt="LOGO"></a>
+
+    <section class="login" >
+        <h1>Criar Conta</h1>
+
+        <form action="" method="post" onsubmit="validarSenha(event)">
+
+            <div class="input">
+                <input type="text" id="namei" placeholder=" ">
+                <label for="namei">Nome</label>
+            </div>
+
+            <div class="input">
+                <input type="email" id="email" required placeholder=" ">
+                <label>Email</label>
+            </div>
+
+            <div class="input">
+                <input type="password" id="senha" required placeholder=" ">
+                <label>Senha</label>
+            </div>
+
+            <div class="input">
+                <input type="password" id="confirmarSenha" required placeholder=" ">
+                <label>Confirmar senha</label>
+            </div>
+
+            <p id="erro" class="erro"></p>
+
+            <input type="submit" value="Criar Conta">
+
+        </form>
+
+        <p class="count">Ainda não tem uma conta? <a href="login.html">Clique aqui para criar</a></p>
+
+        <a class="voltar" href="../index.html"> <i class="fa-solid fa-arrow-left"></i>Voltar pro início</a>
+    </section>
+
+    <script src="../JS/validar-senha.js"></script>
+
+</body>
+</html>
